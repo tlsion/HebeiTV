@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD651B5F1921FB8B00A2D9E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD651B5E1921FB8B00A2D9E6 /* Foundation.framework */; };
+		DD651B611921FB8B00A2D9E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD651B601921FB8B00A2D9E6 /* CoreGraphics.framework */; };
+		DD651B631921FB8B00A2D9E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD651B621921FB8B00A2D9E6 /* UIKit.framework */; };
+		DD651B691921FB8B00A2D9E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD651B671921FB8B00A2D9E6 /* InfoPlist.strings */; };
+		DD651B6B1921FB8B00A2D9E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD651B6A1921FB8B00A2D9E6 /* main.m */; };
+		DD651B6F1921FB8B00A2D9E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD651B6E1921FB8B00A2D9E6 /* AppDelegate.m */; };
+		DD651B721921FB8B00A2D9E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD651B701921FB8B00A2D9E6 /* Main.storyboard */; };
+		DD651B751921FB8B00A2D9E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD651B741921FB8B00A2D9E6 /* ViewController.m */; };
+		DD651B771921FB8B00A2D9E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD651B761921FB8B00A2D9E6 /* Images.xcassets */; };
+		DD651B7E1921FB8B00A2D9E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD651B7D1921FB8B00A2D9E6 /* XCTest.framework */; };
+		DD651B7F1921FB8B00A2D9E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD651B5E1921FB8B00A2D9E6 /* Foundation.framework */; };
+		DD651B801921FB8B00A2D9E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD651B621921FB8B00A2D9E6 /* UIKit.framework */; };
+		DD651B881921FB8B00A2D9E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD651B861921FB8B00A2D9E6 /* InfoPlist.strings */; };
+		DD651B8A1921FB8B00A2D9E6 /* HebeiTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD651B891921FB8B00A2D9E6 /* HebeiTVTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD651B811921FB8B00A2D9E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD651B531921FB8B00A2D9E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD651B5A1921FB8B00A2D9E6;
+			remoteInfo = HebeiTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD651B5B1921FB8B00A2D9E6 /* HebeiTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HebeiTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD651B5E1921FB8B00A2D9E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD651B601921FB8B00A2D9E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD651B621921FB8B00A2D9E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD651B661921FB8B00A2D9E6 /* HebeiTV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HebeiTV-Info.plist"; sourceTree = "<group>"; };
+		DD651B681921FB8B00A2D9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD651B6A1921FB8B00A2D9E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD651B6C1921FB8B00A2D9E6 /* HebeiTV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HebeiTV-Prefix.pch"; sourceTree = "<group>"; };
+		DD651B6D1921FB8B00A2D9E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD651B6E1921FB8B00A2D9E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD651B711921FB8B00A2D9E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD651B731921FB8B00A2D9E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD651B741921FB8B00A2D9E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD651B761921FB8B00A2D9E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DD651B7C1921FB8B00A2D9E6 /* HebeiTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HebeiTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD651B7D1921FB8B00A2D9E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DD651B851921FB8B00A2D9E6 /* HebeiTVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HebeiTVTests-Info.plist"; sourceTree = "<group>"; };
+		DD651B871921FB8B00A2D9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD651B891921FB8B00A2D9E6 /* HebeiTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HebeiTVTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD651B581921FB8B00A2D9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD651B611921FB8B00A2D9E6 /* CoreGraphics.framework in Frameworks */,
+				DD651B631921FB8B00A2D9E6 /* UIKit.framework in Frameworks */,
+				DD651B5F1921FB8B00A2D9E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD651B791921FB8B00A2D9E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD651B7E1921FB8B00A2D9E6 /* XCTest.framework in Frameworks */,
+				DD651B801921FB8B00A2D9E6 /* UIKit.framework in Frameworks */,
+				DD651B7F1921FB8B00A2D9E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD651B521921FB8B00A2D9E6 = {
+			isa = PBXGroup;
+			children = (
+				DD651B641921FB8B00A2D9E6 /* HebeiTV */,
+				DD651B831921FB8B00A2D9E6 /* HebeiTVTests */,
+				DD651B5D1921FB8B00A2D9E6 /* Frameworks */,
+				DD651B5C1921FB8B00A2D9E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD651B5C1921FB8B00A2D9E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD651B5B1921FB8B00A2D9E6 /* HebeiTV.app */,
+				DD651B7C1921FB8B00A2D9E6 /* HebeiTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD651B5D1921FB8B00A2D9E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD651B5E1921FB8B00A2D9E6 /* Foundation.framework */,
+				DD651B601921FB8B00A2D9E6 /* CoreGraphics.framework */,
+				DD651B621921FB8B00A2D9E6 /* UIKit.framework */,
+				DD651B7D1921FB8B00A2D9E6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD651B641921FB8B00A2D9E6 /* HebeiTV */ = {
+			isa = PBXGroup;
+			children = (
+				DD651B6D1921FB8B00A2D9E6 /* AppDelegate.h */,
+				DD651B6E1921FB8B00A2D9E6 /* AppDelegate.m */,
+				DD651B701921FB8B00A2D9E6 /* Main.storyboard */,
+				DD651B731921FB8B00A2D9E6 /* ViewController.h */,
+				DD651B741921FB8B00A2D9E6 /* ViewController.m */,
+				DD651B761921FB8B00A2D9E6 /* Images.xcassets */,
+				DD651B651921FB8B00A2D9E6 /* Supporting Files */,
+			);
+			path = HebeiTV;
+			sourceTree = "<group>";
+		};
+		DD651B651921FB8B00A2D9E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD651B661921FB8B00A2D9E6 /* HebeiTV-Info.plist */,
+				DD651B671921FB8B00A2D9E6 /* InfoPlist.strings */,
+				DD651B6A1921FB8B00A2D9E6 /* main.m */,
+				DD651B6C1921FB8B00A2D9E6 /* HebeiTV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD651B831921FB8B00A2D9E6 /* HebeiTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD651B891921FB8B00A2D9E6 /* HebeiTVTests.m */,
+				DD651B841921FB8B00A2D9E6 /* Supporting Files */,
+			);
+			path = HebeiTVTests;
+			sourceTree = "<group>";
+		};
+		DD651B841921FB8B00A2D9E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD651B851921FB8B00A2D9E6 /* HebeiTVTests-Info.plist */,
+				DD651B861921FB8B00A2D9E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD651B5A1921FB8B00A2D9E6 /* HebeiTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD651B8D1921FB8B00A2D9E6 /* Build configuration list for PBXNativeTarget "HebeiTV" */;
+			buildPhases = (
+				DD651B571921FB8B00A2D9E6 /* Sources */,
+				DD651B581921FB8B00A2D9E6 /* Frameworks */,
+				DD651B591921FB8B00A2D9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HebeiTV;
+			productName = HebeiTV;
+			productReference = DD651B5B1921FB8B00A2D9E6 /* HebeiTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD651B7B1921FB8B00A2D9E6 /* HebeiTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD651B901921FB8B00A2D9E6 /* Build configuration list for PBXNativeTarget "HebeiTVTests" */;
+			buildPhases = (
+				DD651B781921FB8B00A2D9E6 /* Sources */,
+				DD651B791921FB8B00A2D9E6 /* Frameworks */,
+				DD651B7A1921FB8B00A2D9E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD651B821921FB8B00A2D9E6 /* PBXTargetDependency */,
+			);
+			name = HebeiTVTests;
+			productName = HebeiTVTests;
+			productReference = DD651B7C1921FB8B00A2D9E6 /* HebeiTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD651B531921FB8B00A2D9E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MyOrganization;
+				TargetAttributes = {
+					DD651B7B1921FB8B00A2D9E6 = {
+						TestTargetID = DD651B5A1921FB8B00A2D9E6;
+					};
+				};
+			};
+			buildConfigurationList = DD651B561921FB8B00A2D9E6 /* Build configuration list for PBXProject "HebeiTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD651B521921FB8B00A2D9E6;
+			productRefGroup = DD651B5C1921FB8B00A2D9E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD651B5A1921FB8B00A2D9E6 /* HebeiTV */,
+				DD651B7B1921FB8B00A2D9E6 /* HebeiTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD651B591921FB8B00A2D9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD651B771921FB8B00A2D9E6 /* Images.xcassets in Resources */,
+				DD651B691921FB8B00A2D9E6 /* InfoPlist.strings in Resources */,
+				DD651B721921FB8B00A2D9E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD651B7A1921FB8B00A2D9E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD651B881921FB8B00A2D9E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD651B571921FB8B00A2D9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD651B751921FB8B00A2D9E6 /* ViewController.m in Sources */,
+				DD651B6F1921FB8B00A2D9E6 /* AppDelegate.m in Sources */,
+				DD651B6B1921FB8B00A2D9E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD651B781921FB8B00A2D9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD651B8A1921FB8B00A2D9E6 /* HebeiTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD651B821921FB8B00A2D9E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD651B5A1921FB8B00A2D9E6 /* HebeiTV */;
+			targetProxy = DD651B811921FB8B00A2D9E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD651B671921FB8B00A2D9E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD651B681921FB8B00A2D9E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD651B701921FB8B00A2D9E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD651B711921FB8B00A2D9E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD651B861921FB8B00A2D9E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD651B871921FB8B00A2D9E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD651B8B1921FB8B00A2D9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD651B8C1921FB8B00A2D9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD651B8E1921FB8B00A2D9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HebeiTV/HebeiTV-Prefix.pch";
+				INFOPLIST_FILE = "HebeiTV/HebeiTV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD651B8F1921FB8B00A2D9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HebeiTV/HebeiTV-Prefix.pch";
+				INFOPLIST_FILE = "HebeiTV/HebeiTV-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DD651B911921FB8B00A2D9E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HebeiTV.app/HebeiTV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HebeiTV/HebeiTV-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HebeiTVTests/HebeiTVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DD651B921921FB8B00A2D9E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HebeiTV.app/HebeiTV";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HebeiTV/HebeiTV-Prefix.pch";
+				INFOPLIST_FILE = "HebeiTVTests/HebeiTVTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD651B561921FB8B00A2D9E6 /* Build configuration list for PBXProject "HebeiTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD651B8B1921FB8B00A2D9E6 /* Debug */,
+				DD651B8C1921FB8B00A2D9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD651B8D1921FB8B00A2D9E6 /* Build configuration list for PBXNativeTarget "HebeiTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD651B8E1921FB8B00A2D9E6 /* Debug */,
+				DD651B8F1921FB8B00A2D9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD651B901921FB8B00A2D9E6 /* Build configuration list for PBXNativeTarget "HebeiTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD651B911921FB8B00A2D9E6 /* Debug */,
+				DD651B921921FB8B00A2D9E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD651B531921FB8B00A2D9E6 /* Project object */;
+}
