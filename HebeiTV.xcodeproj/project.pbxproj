@@ -54,7 +54,6 @@
 		DD651B801921FB8B00A2D9E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD651B621921FB8B00A2D9E6 /* UIKit.framework */; };
 		DD651B881921FB8B00A2D9E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD651B861921FB8B00A2D9E6 /* InfoPlist.strings */; };
 		DD651B8A1921FB8B00A2D9E6 /* HebeiTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD651B891921FB8B00A2D9E6 /* HebeiTVTests.m */; };
-		DD651BBD1921FD9C00A2D9E6 /* LOGO@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651B951921FD9C00A2D9E6 /* LOGO@2x.png */; };
 		DD651BBE1921FD9C00A2D9E6 /* LOGO字样（暂代）@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651B961921FD9C00A2D9E6 /* LOGO字样（暂代）@2x.png */; };
 		DD651BBF1921FD9C00A2D9E6 /* 中奖通告白底@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651B971921FD9C00A2D9E6 /* 中奖通告白底@2x.png */; };
 		DD651BC01921FD9C00A2D9E6 /* 同城抢购-商品（大例）@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651B981921FD9C00A2D9E6 /* 同城抢购-商品（大例）@2x.png */; };
@@ -72,10 +71,8 @@
 		DD651BCC1921FD9C00A2D9E6 /* 按钮-刮刮卡@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651BA41921FD9C00A2D9E6 /* 按钮-刮刮卡@2x.png */; };
 		DD651BCD1921FD9C00A2D9E6 /* 按钮-摇一摇@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651BA51921FD9C00A2D9E6 /* 按钮-摇一摇@2x.png */; };
 		DD651BCE1921FD9C00A2D9E6 /* 按钮-设置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651BA61921FD9C00A2D9E6 /* 按钮-设置@2x.png */; };
-		DD651BCF1921FD9C00A2D9E6 /* 新首页II原型@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651BA71921FD9C00A2D9E6 /* 新首页II原型@2x.png */; };
 		DD651BD01921FD9C00A2D9E6 /* 置顶广告图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651BA81921FD9C00A2D9E6 /* 置顶广告图@2x.png */; };
 		DD651BD11921FD9C00A2D9E6 /* 背景图（颜色#f2f7f8）@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651BA91921FD9C00A2D9E6 /* 背景图（颜色#f2f7f8）@2x.png */; };
-		DD651BD21921FD9C00A2D9E6 /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651BAA1921FD9C00A2D9E6 /* 首页@2x.png */; };
 		DD651BD31921FD9C00A2D9E6 /* 首页顶部@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD651BAB1921FD9C00A2D9E6 /* 首页顶部@2x.png */; };
 		DD651BD41921FD9C00A2D9E6 /* EGOCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DD651BB01921FD9C00A2D9E6 /* EGOCache.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DD651BD51921FD9C00A2D9E6 /* EGOImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD651BB31921FD9C00A2D9E6 /* EGOImageButton.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -103,7 +100,6 @@
 		DD8AFCBD1941B1290096E804 /* 个人信息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8AFCBC1941B1290096E804 /* 个人信息@2x.png */; };
 		DD8AFCC01941B1590096E804 /* 条目@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8AFCBE1941B1590096E804 /* 条目@2x.png */; };
 		DD8AFCC11941B1590096E804 /* 箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8AFCBF1941B1590096E804 /* 箭头@2x.png */; };
-		DD8AFCC31941B16D0096E804 /* 关于我们内图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8AFCC21941B16D0096E804 /* 关于我们内图@2x.png */; };
 		DD8AFCC61941B1EF0096E804 /* HBSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8AFCC51941B1EF0096E804 /* HBSettingViewController.m */; };
 		DD8AFCC91941B2890096E804 /* HBChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8AFCC81941B2890096E804 /* HBChangePasswordViewController.m */; };
 		DD8AFCCC1941B29E0096E804 /* HBAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8AFCCB1941B29E0096E804 /* HBAboutViewController.m */; };
@@ -155,7 +151,6 @@
 		DDDCA6D81946EC53006FDA34 /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDCA6D01946EC53006FDA34 /* libSocialWechat.a */; };
 		DDDCA6D91946EC53006FDA34 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDCA6D11946EC53006FDA34 /* libWeChatSDK.a */; };
 		DDDCA6DC1946EEF7006FDA34 /* BCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDCA6DB1946EEF7006FDA34 /* BCActionSheet.m */; };
-		DDDCA6DE1946F15E006FDA34 /* HebeiLog.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDCA6DD1946F15E006FDA34 /* HebeiLog.png */; };
 		DDDCA6E01946F20B006FDA34 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDCA6DF1946F20B006FDA34 /* Security.framework */; };
 		DDDCA6E21946F212006FDA34 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDCA6E11946F212006FDA34 /* libiconv.dylib */; };
 		DDDCA6E41946F21D006FDA34 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDDCA6E31946F21D006FDA34 /* SystemConfiguration.framework */; };
@@ -230,8 +225,6 @@
 		DDEB85C1193426B500BA3C92 /* HBPanicBuyingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB85C0193426B500BA3C92 /* HBPanicBuyingViewController.m */; };
 		DDEB85C519342D3800BA3C92 /* HBPanicBuyingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB85C319342D3800BA3C92 /* HBPanicBuyingCell.m */; };
 		DDEB85C619342D3800BA3C92 /* HBPanicBuyingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEB85C419342D3800BA3C92 /* HBPanicBuyingCell.xib */; };
-		DDFC5116194565CA000D8BF3 /* 欢迎画面832X640@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC5114194565CA000D8BF3 /* 欢迎画面832X640@2x.png */; };
-		DDFC5117194565CA000D8BF3 /* 欢迎画面1008X640@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFC5115194565CA000D8BF3 /* 欢迎画面1008X640@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -311,7 +304,6 @@
 		DD651B851921FB8B00A2D9E6 /* HebeiTVTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HebeiTVTests-Info.plist"; sourceTree = "<group>"; };
 		DD651B871921FB8B00A2D9E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DD651B891921FB8B00A2D9E6 /* HebeiTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HebeiTVTests.m; sourceTree = "<group>"; };
-		DD651B951921FD9C00A2D9E6 /* LOGO@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO@2x.png"; sourceTree = "<group>"; };
 		DD651B961921FD9C00A2D9E6 /* LOGO字样（暂代）@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO字样（暂代）@2x.png"; sourceTree = "<group>"; };
 		DD651B971921FD9C00A2D9E6 /* 中奖通告白底@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "中奖通告白底@2x.png"; sourceTree = "<group>"; };
 		DD651B981921FD9C00A2D9E6 /* 同城抢购-商品（大例）@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "同城抢购-商品（大例）@2x.png"; sourceTree = "<group>"; };
@@ -329,10 +321,8 @@
 		DD651BA41921FD9C00A2D9E6 /* 按钮-刮刮卡@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-刮刮卡@2x.png"; sourceTree = "<group>"; };
 		DD651BA51921FD9C00A2D9E6 /* 按钮-摇一摇@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-摇一摇@2x.png"; sourceTree = "<group>"; };
 		DD651BA61921FD9C00A2D9E6 /* 按钮-设置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮-设置@2x.png"; sourceTree = "<group>"; };
-		DD651BA71921FD9C00A2D9E6 /* 新首页II原型@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新首页II原型@2x.png"; sourceTree = "<group>"; };
 		DD651BA81921FD9C00A2D9E6 /* 置顶广告图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "置顶广告图@2x.png"; sourceTree = "<group>"; };
 		DD651BA91921FD9C00A2D9E6 /* 背景图（颜色#f2f7f8）@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景图（颜色#f2f7f8）@2x.png"; sourceTree = "<group>"; };
-		DD651BAA1921FD9C00A2D9E6 /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
 		DD651BAB1921FD9C00A2D9E6 /* 首页顶部@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页顶部@2x.png"; sourceTree = "<group>"; };
 		DD651BAF1921FD9C00A2D9E6 /* EGOCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGOCache.h; sourceTree = "<group>"; };
 		DD651BB01921FD9C00A2D9E6 /* EGOCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGOCache.m; sourceTree = "<group>"; };
@@ -372,7 +362,6 @@
 		DD8AFCBC1941B1290096E804 /* 个人信息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人信息@2x.png"; sourceTree = "<group>"; };
 		DD8AFCBE1941B1590096E804 /* 条目@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "条目@2x.png"; sourceTree = "<group>"; };
 		DD8AFCBF1941B1590096E804 /* 箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "箭头@2x.png"; sourceTree = "<group>"; };
-		DD8AFCC21941B16D0096E804 /* 关于我们内图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于我们内图@2x.png"; sourceTree = "<group>"; };
 		DD8AFCC41941B1EF0096E804 /* HBSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBSettingViewController.h; sourceTree = "<group>"; };
 		DD8AFCC51941B1EF0096E804 /* HBSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBSettingViewController.m; sourceTree = "<group>"; };
 		DD8AFCC71941B2890096E804 /* HBChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBChangePasswordViewController.h; sourceTree = "<group>"; };
@@ -454,7 +443,6 @@
 		DDDCA6D41946EC53006FDA34 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		DDDCA6DA1946EEF7006FDA34 /* BCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCActionSheet.h; sourceTree = "<group>"; };
 		DDDCA6DB1946EEF7006FDA34 /* BCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCActionSheet.m; sourceTree = "<group>"; };
-		DDDCA6DD1946F15E006FDA34 /* HebeiLog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HebeiLog.png; sourceTree = "<group>"; };
 		DDDCA6DF1946F20B006FDA34 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DDDCA6E11946F212006FDA34 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		DDDCA6E31946F21D006FDA34 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -538,8 +526,6 @@
 		DDEB85C219342D3800BA3C92 /* HBPanicBuyingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPanicBuyingCell.h; sourceTree = "<group>"; };
 		DDEB85C319342D3800BA3C92 /* HBPanicBuyingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPanicBuyingCell.m; sourceTree = "<group>"; };
 		DDEB85C419342D3800BA3C92 /* HBPanicBuyingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBPanicBuyingCell.xib; sourceTree = "<group>"; };
-		DDFC5114194565CA000D8BF3 /* 欢迎画面832X640@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欢迎画面832X640@2x.png"; sourceTree = "<group>"; };
-		DDFC5115194565CA000D8BF3 /* 欢迎画面1008X640@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "欢迎画面1008X640@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -789,17 +775,13 @@
 				DDDCA6F41946F2EB006FDA34 /* umeng_socialize_tx_on@2x.png */,
 				DDDCA6F51946F2EB006FDA34 /* umeng_socialize_wechat@2x.png */,
 				DDDCA6F61946F2EB006FDA34 /* umeng_socialize_wxcircle@2x.png */,
-				DDDCA6DD1946F15E006FDA34 /* HebeiLog.png */,
 				DDDCA6911946EBBA006FDA34 /* 占位图@2x.png */,
-				DDFC5114194565CA000D8BF3 /* 欢迎画面832X640@2x.png */,
-				DDFC5115194565CA000D8BF3 /* 欢迎画面1008X640@2x.png */,
 				DD8AFCD01941C7130096E804 /* 修改密码@2x.png */,
 				DD8AFCBE1941B1590096E804 /* 条目@2x.png */,
 				DD8AFCBF1941B1590096E804 /* 箭头@2x.png */,
 				DD8AFCBA1941B1250096E804 /* 关于我们@2x.png */,
 				DD8AFCBC1941B1290096E804 /* 个人信息@2x.png */,
 				DD8AFCB81941B1130096E804 /* 设置@2x.png */,
-				DD8AFCC21941B16D0096E804 /* 关于我们内图@2x.png */,
 				DD74CC1E19415A41003B3462 /* 弹窗底（上下圆角）@2x.png */,
 				DD88783F194045A80007B79E /* 兑奖 */,
 				DDEB85B21934258C00BA3C92 /* 同城抢购 */,
@@ -817,7 +799,6 @@
 				DDE50B3019331DB000F31FFC /* 左右滑动广告黑条@2x.png */,
 				DDD255881929AF6D005C7CF9 /* 注册登录 */,
 				DDDF9E0319236D9600441B4B /* 更多信息@2x.png */,
-				DD651B951921FD9C00A2D9E6 /* LOGO@2x.png */,
 				DD651B961921FD9C00A2D9E6 /* LOGO字样（暂代）@2x.png */,
 				DD651B971921FD9C00A2D9E6 /* 中奖通告白底@2x.png */,
 				DD651B981921FD9C00A2D9E6 /* 同城抢购-商品（大例）@2x.png */,
@@ -835,10 +816,8 @@
 				DD651BA41921FD9C00A2D9E6 /* 按钮-刮刮卡@2x.png */,
 				DD651BA51921FD9C00A2D9E6 /* 按钮-摇一摇@2x.png */,
 				DD651BA61921FD9C00A2D9E6 /* 按钮-设置@2x.png */,
-				DD651BA71921FD9C00A2D9E6 /* 新首页II原型@2x.png */,
 				DD651BA81921FD9C00A2D9E6 /* 置顶广告图@2x.png */,
 				DD651BA91921FD9C00A2D9E6 /* 背景图（颜色#f2f7f8）@2x.png */,
-				DD651BAA1921FD9C00A2D9E6 /* 首页@2x.png */,
 				DD651BAB1921FD9C00A2D9E6 /* 首页顶部@2x.png */,
 			);
 			path = HBImage;
@@ -1232,7 +1211,6 @@
 			files = (
 				DDDCA6BF1946EC23006FDA34 /* UMShareEditViewController.xib in Resources */,
 				DD5EDE931937235D008BD6E1 /* 忘记密码Title@2x.png in Resources */,
-				DDDCA6DE1946F15E006FDA34 /* HebeiLog.png in Resources */,
 				DD887846194045A80007B79E /* 箭头@2x.png in Resources */,
 				DD4A9DC5192B374E00152B0E /* 刮刮卡信息底色@2x.png in Resources */,
 				DD223F15192C9F1700CD60D6 /* 摇一摇背景大图@2x.png in Resources */,
@@ -1279,7 +1257,6 @@
 				DDE5CFCE193F15B600BA4A9C /* 信息框B（有黄边）@2x.png in Resources */,
 				DDDCA6F71946F2EB006FDA34 /* umeng_socialize_douban_on@2x.png in Resources */,
 				DDDCA6C71946EC23006FDA34 /* UMSocialSDKResourcesNew.bundle in Resources */,
-				DD651BD21921FD9C00A2D9E6 /* 首页@2x.png in Resources */,
 				DDD2559E1929AF6D005C7CF9 /* 弹窗按钮B@2x.png in Resources */,
 				DDE5CFC6193F15B600BA4A9C /* 例图8@2x.png in Resources */,
 				DD223F3F192CB0DB00CD60D6 /* buleArrow.png in Resources */,
@@ -1292,9 +1269,7 @@
 				DDDCA6C01946EC23006FDA34 /* UMShareEditViewControlleriPad.xib in Resources */,
 				DD651BC41921FD9C00A2D9E6 /* 同城抢购白底@2x.png in Resources */,
 				DD223F3B192CB0DB00CD60D6 /* blackArrow.png in Resources */,
-				DDFC5116194565CA000D8BF3 /* 欢迎画面832X640@2x.png in Resources */,
 				DDDCA6BA1946EC23006FDA34 /* UMSocialLocalizable.strings in Resources */,
-				DD8AFCC31941B16D0096E804 /* 关于我们内图@2x.png in Resources */,
 				DD651BC91921FD9C00A2D9E6 /* 广告图浮标@2x.png in Resources */,
 				DDDCA6FD1946F2EB006FDA34 /* umeng_socialize_sms@2x.png in Resources */,
 				DDE5CFC4193F15B600BA4A9C /* 例图6@2x.png in Resources */,
@@ -1314,7 +1289,6 @@
 				DDE5CFBE193F15B600BA4A9C /* 例图1@2x.png in Resources */,
 				DDD255A51929AF6D005C7CF9 /* 输入框@2x.png in Resources */,
 				DD651BC11921FD9C00A2D9E6 /* 同城抢购-商品（小例2）@2x.png in Resources */,
-				DDFC5117194565CA000D8BF3 /* 欢迎画面1008X640@2x.png in Resources */,
 				DD651BC21921FD9C00A2D9E6 /* 同城抢购-商品（小例）@2x.png in Resources */,
 				DDE5CFC5193F15B600BA4A9C /* 例图7@2x.png in Resources */,
 				DDD2559C1929AF6D005C7CF9 /* 弹窗按钮A@2x.png in Resources */,
@@ -1336,7 +1310,6 @@
 				DDE29203192C439E00316801 /* 白条@2x.png in Resources */,
 				DD223F1E192CA30700CD60D6 /* shake1.mp3 in Resources */,
 				DD8AFCC01941B1590096E804 /* 条目@2x.png in Resources */,
-				DD651BCF1921FD9C00A2D9E6 /* 新首页II原型@2x.png in Resources */,
 				DDDCA6D71946EC53006FDA34 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				DDEB85BE1934258C00BA3C92 /* 抢购商品白底@2x.png in Resources */,
 				DDE5CFC0193F15B600BA4A9C /* 例图2@2x.png in Resources */,
@@ -1362,7 +1335,6 @@
 				DDE5CFD1193F15B600BA4A9C /* 商品详情大图@2x.png in Resources */,
 				DD651BD31921FD9C00A2D9E6 /* 首页顶部@2x.png in Resources */,
 				DD223F40192CB0DB00CD60D6 /* buleArrow@2x.png in Resources */,
-				DD651BBD1921FD9C00A2D9E6 /* LOGO@2x.png in Resources */,
 				DD223F3C192CB0DB00CD60D6 /* blackArrow@2x.png in Resources */,
 				DDE5CFD3193F15B600BA4A9C /* 摇一摇图示(带字)@2x.png in Resources */,
 				DDD255A31929AF6D005C7CF9 /* 绿色按钮@2x.png in Resources */,
