@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>96FC1F2A-4C5B-4676-ABED-5C2380C7E045</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HebeiTV</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</key>
+		<string>https://192.168.0.110/svn/ios</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HebeiTV.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</key>
+		<string>https://192.168.0.110/svn/ios</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.0.110/svn/ios/https:/github.com/tlsion/HebeiTV.git/HebeiTV.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HebeiTV</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HebeiTV</string>
+		</dict>
+	</array>
+</dict>
+</plist>
