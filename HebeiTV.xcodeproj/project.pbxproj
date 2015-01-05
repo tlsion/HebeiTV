@@ -1584,8 +1584,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yue Xin Xu (7SL63TUG8F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yue Xin Xu (7SL63TUG8F)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Haiyi Information Technology Co., Ltd.  (FF3MF689TH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Haiyi Information Technology Co., Ltd.  (FF3MF689TH)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/HBTools/ZhiyouPush",
@@ -1603,7 +1603,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "10bce9bd-86c1-45f4-a185-a8aeea34dd78";
+				PROVISIONING_PROFILE = "04ea011a-dd3d-46b5-a9bc-edddefd9cd43";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -1616,8 +1616,8 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yue Xin Xu (7SL63TUG8F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yue Xin Xu (7SL63TUG8F)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Haiyi Information Technology Co., Ltd.  (FF3MF689TH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Haiyi Information Technology Co., Ltd.  (FF3MF689TH)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/HBTools/ZhiyouPush",
@@ -1635,7 +1635,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "10bce9bd-86c1-45f4-a185-a8aeea34dd78";
+				PROVISIONING_PROFILE = "04ea011a-dd3d-46b5-a9bc-edddefd9cd43";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;

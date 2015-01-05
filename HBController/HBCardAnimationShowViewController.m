@@ -338,7 +338,7 @@ static CGRect dallFrame;
         AppDelegate * app=APP;
         [app getUserInfogetBean];
         if (service.status==1) {
-            HBAlertView * winAv=[[HBAlertView alloc]initWithMessage:@"恭喜您中奖了，请前往中奖区领取奖品!"];
+            HBAlertView * winAv=[[HBAlertView alloc]initWithMessage:@"恭喜您中奖了，请前往【兑奖】中领取奖品!"];
             winAv.rightBlock=^{
                 [self.navigationController popViewControllerAnimated:YES];
             };
