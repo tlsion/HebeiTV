@@ -401,7 +401,7 @@ static CGRect dallFrame;
     _prizeNameLabel.textAlignment=NSTextAlignmentCenter;
     _prizeNameLabel.textColor=YAHEI;
     _prizeNameLabel.font=ChangeBeforeFont;
-    _prizeNameLabel.backgroundColor=[UIColor whiteColor];
+    _prizeNameLabel.backgroundColor=[UIColor clearColor];
     //        if (prizeName) {
     //            [_prizeNameLabel setText:prizeName];
     //        }else{
