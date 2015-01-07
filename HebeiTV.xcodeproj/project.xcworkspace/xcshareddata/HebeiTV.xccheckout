@@ -20,8 +20,6 @@
 		<key>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</key>
 		<string>../..</string>
 	</dict>
-	<key>IDESourceControlProjectURL</key>
-	<string>https://192.168.0.110/svn/ios</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
@@ -30,7 +28,7 @@
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
+			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</string>
 			<key>IDESourceControlWCCName</key>
@@ -38,7 +36,7 @@
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>C6034912611D273B9E3CD2CF62972F1F8F3F4F2E</string>
 			<key>IDESourceControlWCCName</key>
