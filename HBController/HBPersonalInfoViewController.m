@@ -62,7 +62,9 @@
 {
     [super viewDidLoad];
     
-    mainScrollView.frame=CGRectMake(0, NAV_HEI_64, SCREEN_MAX_WIDTH, SCREEN_MAX_HEIGHT-NAV_HEI_64);
+    mainScrollView.frame=CGRectMake(0, 0, SCREEN_MAX_WIDTH, CGRectGetHeight(self.view.frame));
+    
+    mainScrollView.contentSize=CGSizeMake(SCREEN_MAX_WIDTH, 604);
     
     // Do any additional setup after loading the view.
     UITapGestureRecognizer * tap=[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(changePasswordAction)];
@@ -225,14 +227,14 @@
     int flag1=setY(textField)+NAV_HEI_64;
     int flag2=SCREEN_MAX_HEIGHT-216;
     int flag3=flag1-flag2+44;
-    mainScrollView.contentSize=CGSizeMake(SCREEN_MAX_WIDTH, mainScrollView.bounds.size.height +216);
+    mainScrollView.contentSize=CGSizeMake(SCREEN_MAX_WIDTH, 604 +216);
     if (flag1>flag2) {
         
         [mainScrollView setContentOffset:CGPointMake(0, flag3) animated:YES];
     }
 }
 -(void)keyboardWillBeHidden:(id)sender{
-    mainScrollView.contentSize=CGSizeMake(SCREEN_MAX_WIDTH, mainScrollView.bounds.size.height);
+    mainScrollView.contentSize=CGSizeMake(SCREEN_MAX_WIDTH, 604);
     [mainScrollView setContentOffset:CGPointMake(0, 0) animated:YES];
     
 }
