@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15A99D021A6A324500082D01 /* CustomEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A99D001A6A324500082D01 /* CustomEmptyView.m */; };
+		15A99D031A6A324500082D01 /* CustomEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A99D011A6A324500082D01 /* CustomEmptyView.xib */; };
+		15A99D051A6A325700082D01 /* empty_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15A99D041A6A325700082D01 /* empty_bg@2x.png */; };
 		847F3433192B536500E191D9 /* HBPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 847F3432192B536500E191D9 /* HBPhoto.m */; };
 		8482D3AC1938673C002652F6 /* HBBannerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8482D3AB1938673C002652F6 /* HBBannerDetailViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		848457251929D79E000A777F /* HBAuthcodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848457241929D79E000A777F /* HBAuthcodeViewController.m */; };
@@ -238,6 +241,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15A99CFF1A6A324500082D01 /* CustomEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomEmptyView.h; sourceTree = "<group>"; };
+		15A99D001A6A324500082D01 /* CustomEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomEmptyView.m; sourceTree = "<group>"; };
+		15A99D011A6A324500082D01 /* CustomEmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomEmptyView.xib; sourceTree = "<group>"; };
+		15A99D041A6A325700082D01 /* empty_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty_bg@2x.png"; sourceTree = "<group>"; };
 		847F3431192B536500E191D9 /* HBPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBPhoto.h; sourceTree = "<group>"; };
 		847F3432192B536500E191D9 /* HBPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBPhoto.m; sourceTree = "<group>"; };
 		8482D3AA1938673C002652F6 /* HBBannerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBannerDetailViewController.h; sourceTree = "<group>"; };
@@ -764,6 +771,7 @@
 		DD651B941921FD9C00A2D9E6 /* HBImage */ = {
 			isa = PBXGroup;
 			children = (
+				15A99D041A6A325700082D01 /* empty_bg@2x.png */,
 				DDB9EF7B1A599AC900FF15BC /* About@2x.png */,
 				DDDCA6ED1946F2EB006FDA34 /* umeng_socialize_douban_on@2x.png */,
 				DDDCA6EE1946F2EB006FDA34 /* umeng_socialize_gmail@2x.png */,
@@ -898,6 +906,9 @@
 				DDD2558319299B83005C7CF9 /* HBAlertView.m */,
 				DDD2558519299F2F005C7CF9 /* HBCustomerTextField.h */,
 				DDD2558619299F2F005C7CF9 /* HBCustomerTextField.m */,
+				15A99CFF1A6A324500082D01 /* CustomEmptyView.h */,
+				15A99D001A6A324500082D01 /* CustomEmptyView.m */,
+				15A99D011A6A324500082D01 /* CustomEmptyView.xib */,
 				DDDF9DED192315E400441B4B /* HBCell */,
 			);
 			path = HBView;
@@ -1330,6 +1341,7 @@
 				DDEB85B91934258C00BA3C92 /* 中选项（预告）@2x.png in Resources */,
 				DDE50B3619331DB000F31FFC /* 左右滑动广告黑条@2x.png in Resources */,
 				DDE50B3319331DB000F31FFC /* 左右滑动广告B@2x.png in Resources */,
+				15A99D031A6A324500082D01 /* CustomEmptyView.xib in Resources */,
 				DDD255A41929AF6D005C7CF9 /* 绿色按钮（按下）@2x.png in Resources */,
 				DDD2559D1929AF6D005C7CF9 /* 弹窗按钮A（按下）@2x.png in Resources */,
 				DDE5CFD1193F15B600BA4A9C /* 商品详情大图@2x.png in Resources */,
@@ -1337,6 +1349,7 @@
 				DD223F40192CB0DB00CD60D6 /* buleArrow@2x.png in Resources */,
 				DD223F3C192CB0DB00CD60D6 /* blackArrow@2x.png in Resources */,
 				DDE5CFD3193F15B600BA4A9C /* 摇一摇图示(带字)@2x.png in Resources */,
+				15A99D051A6A325700082D01 /* empty_bg@2x.png in Resources */,
 				DDD255A31929AF6D005C7CF9 /* 绿色按钮@2x.png in Resources */,
 				DDDCA6FF1946F2EB006FDA34 /* umeng_socialize_wechat@2x.png in Resources */,
 				DDDCA6BE1946EC23006FDA34 /* UMSCommentInputControlleriPad.xib in Resources */,
@@ -1412,6 +1425,7 @@
 				DD88785619405D550007B79E /* HBAdvertisementDetailViewController.m in Sources */,
 				DDD255B5192A0380005C7CF9 /* Regular.m in Sources */,
 				DDC00E84193EB8BF0062B132 /* HBPanicBuyingDetailViewController.m in Sources */,
+				15A99D021A6A324500082D01 /* CustomEmptyView.m in Sources */,
 				DD651BD61921FD9C00A2D9E6 /* EGOImageLoadConnection.m in Sources */,
 				848457251929D79E000A777F /* HBAuthcodeViewController.m in Sources */,
 				847F3433192B536500E191D9 /* HBPhoto.m in Sources */,
@@ -1579,7 +1593,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "554730d0-1c89-4982-b9ef-a0fc968ac5ca";
+				PROVISIONING_PROFILE = "6767118f-90f6-4bfd-8cf4-6015b11bfd7a";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -1611,7 +1625,7 @@
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "554730d0-1c89-4982-b9ef-a0fc968ac5ca";
+				PROVISIONING_PROFILE = "6767118f-90f6-4bfd-8cf4-6015b11bfd7a";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;

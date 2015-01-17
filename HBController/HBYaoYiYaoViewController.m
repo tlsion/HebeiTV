@@ -56,12 +56,17 @@
 	AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:path1], &startSoundID);
     NSString *path2 = [[NSBundle mainBundle] pathForResource:@"shake2" ofType:@"mp3"];
 	AudioServicesCreateSystemSoundID((__bridge CFURLRef)[NSURL fileURLWithPath:path2], &endSoundID);
-    
-    self.shakeBgView.frame=CGRectMake(0, NAV_HEI_64, SCREEN_MAX_WIDTH, SCREEN_MAX_HEIGHT-NAV_HEI_64);
 }
 - (IBAction)backAction:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+- (IBAction)warningAction:(id)sender {
+    
+    UIAlertView * av =[[UIAlertView alloc]initWithTitle:nil message:@"奖品：由该程序“多多乐”的广告商家提供赞助礼品（食品、生活用品、数码产品等）\n摇一摇规则说明：参加者使用该应用程序进行摇手机，抽取程序内有效的虚拟积分：多多豆。\n\r重要声明：1、本次的抽奖活动由河北电视台公共新闻频道发起，奖品由该应用程序上的投放的广告商家提供。\n2、此次抽奖活动的中奖信息以该应用程序“多多乐”实时公布为准，其他途径公布的消息无效；解释权及规则归河北电视台公共新闻频道所有。\n3、本次抽奖活动及奖品提供与苹果公司无关，苹果不是发起者，也没有以任何方式参与活动。" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [av show];
+}
+
 -(BOOL)canBecomeFirstResponder
 {
     return YES;

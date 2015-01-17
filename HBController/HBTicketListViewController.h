@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HBTicketListViewController : UITableViewController
+@interface HBTicketListViewController : UIViewController
 
 @end

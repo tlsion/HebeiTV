@@ -10,25 +10,20 @@
 #import "TicketMessage.h"
 #import "HBTicketDetailViewController.h"
 #import "UIView+Action.h"
+#import "CustomEmptyView.h"
+
 @interface HBTicketListViewController ()
 {
     
     UIActivityIndicatorView *loadingMoreView;
     NSMutableArray * ticketMessages;
     NSInteger selectInteger;
+    CustomEmptyView *customEmptyView;
 }
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @end
 
 @implementation HBTicketListViewController
-
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 - (void)viewDidLoad
 {
@@ -47,6 +42,7 @@
     [footView addSubview:loadingMoreView];
     self.tableView.tableFooterView=footView;
     
+    [self initEmptyView];
     
     [self getWinlist];
 }
@@ -102,6 +98,20 @@
     [self performSegueWithIdentifier:@"TicketDetailPush" sender:self];
 }
 
+
+- (void)initEmptyView {
+    
+    customEmptyView = [[CustomEmptyView alloc] init];
+    customEmptyView.center = self.tableView.center;
+    customEmptyView.promotion = @"无相关兑奖信息!";
+    customEmptyView.hidden = YES;
+    [self.view addSubview:customEmptyView];
+    
+
+}
+
+
+
 static int oldOffsetY=0;
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     float coffset=((scrollView.contentSize.height - scrollView.frame.size.height));
@@ -122,6 +132,16 @@ static int oldOffsetY=0;
         if (service.status==1) {
             [ticketMessages addObjectsFromArray:service.allLists];
             [self.tableView reloadData];
+            
+            if (ticketMessages.count == 0) {
+                self.tableView.hidden = YES;
+                customEmptyView.hidden = NO;
+            }
+            else{
+                
+                self.tableView.hidden = NO;
+                customEmptyView.hidden = YES;
+            }
         }
         [app.window hideToastActivity];
         [loadingMoreView stopAnimating];
